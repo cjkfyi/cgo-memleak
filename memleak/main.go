@@ -1,8 +1,13 @@
 package main
 
-//#include "printer.h"
+import (
+	"encoding/json"
+)
+
+/*
+	#include "printer.h"
+*/
 import "C"
-import "encoding/json"
 
 //export EncodeF64
 func EncodeF64(key *C.char, value float64) *C.char {
