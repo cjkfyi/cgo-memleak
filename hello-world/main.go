@@ -1,10 +1,7 @@
 package main
 
 /*
-	#include "stdio.h"
-	void wrapPrintf(const char *s) {
-		printf("%s", s);
-	}
+	#include "hello.h"
 */
 import "C"
 

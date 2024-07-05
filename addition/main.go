@@ -1,14 +1,11 @@
 package main
 
 /*
-	#include "math.h"
-	double add(double a, double b) {
-		return a + b;
-	}
+	#include "add.h"
 */
 import "C"
 import "fmt"
 
 func main() {
-	fmt.Println(C.floor(C.add(1336.3, 1)))
+	fmt.Println(C.addition(1336.3, 1))
 }
